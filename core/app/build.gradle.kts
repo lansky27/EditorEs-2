@@ -173,5 +173,4 @@ dependencies {
   implementation(projects.utilities.treeview)
 
   testImplementation(projects.testing.unitTest)
-  androidTestImplementation(projects.testing.androidTest)
 }

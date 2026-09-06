@@ -59,5 +59,4 @@ dependencies {
     implementation(projects.utilities.preferences)
 
     testImplementation(projects.testing.unitTest)
-    testImplementation(projects.testing.androidTest)
 }
