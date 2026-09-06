@@ -48,6 +48,10 @@ gradlePlugin {
       id = "com.itsaky.androidide.build"
       implementationClass = "com.itsaky.androidide.plugins.AndroidIDEPlugin"
     }
+    create("com.itsaky.androidide.core-app") {
+      id = "com.itsaky.androidide.core-app"
+      implementationClass = "com.itsaky.androidide.plugins.AndroidIDECoreAppPlugin"
+    }
     create("com.itsaky.androidide.build.lexergenerator") {
       id = "com.itsaky.androidide.build.lexergenerator"
       implementationClass = "com.itsaky.androidide.plugins.LexerGeneratorPlugin"

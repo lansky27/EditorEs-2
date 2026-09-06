@@ -21,6 +21,8 @@ import com.itsaky.androidide.build.config.BuildConfig
 import com.itsaky.androidide.desugaring.utils.JavaIOReplacements.applyJavaIOReplacements
 
 plugins {
+  // must precede com.android.application: the root script checks for it in plugins.withId
+  id("com.itsaky.androidide.core-app")
   id("com.android.application")
   id("kotlin-android")
   id("kotlin-kapt")
