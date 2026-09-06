@@ -48,7 +48,6 @@
   <string name="action_kill_process">Süreci öldür (%d)</string>
   <string name="title_confirm_kill_process">Bu oturumu gerçekten öldürecek misin?</string>
   <string name="action_toggle_keep_screen_on">Ekranı açık tut</string>
-  <string name="action_open_help">Yardım</string>
   <string name="action_report_issue">Sorun Bildir</string>
   <string name="msg_generating_report">Rapor Oluşturma</string>
   <string name="msg_add_termux_debug_info">Rapora termux hata ayıklama bilgisini ekleyin?</string>

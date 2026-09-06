@@ -48,7 +48,6 @@
   <string name="action_kill_process">प्रोसेस (%d) को खत्म करें</string>
   <string name="title_confirm_kill_process">क्या आप सचमुच इस सेशन को समाप्त करना चाहते हैं?</string>
   <string name="action_toggle_keep_screen_on">स्क्रीन ऑन रखें</string>
-  <string name="action_open_help">मदद</string>
   <string name="action_report_issue">समस्या सूचित करें</string>
   <string name="msg_generating_report">रिपोर्ट बना रहा है...</string>
   <string name="msg_add_termux_debug_info">रिपोर्ट में Termux डिबग जानकारी जोड़ें?</string>

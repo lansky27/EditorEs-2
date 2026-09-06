@@ -48,7 +48,6 @@
   <string name="action_kill_process">终止进程（%d）</string>
   <string name="title_confirm_kill_process">确定结束此会话？</string>
   <string name="action_toggle_keep_screen_on">保持屏幕开启</string>
-  <string name="action_open_help">帮助</string>
   <string name="action_report_issue">报告问题</string>
   <string name="msg_generating_report">生成报告</string>
   <string name="msg_add_termux_debug_info">将 termux 调试信息添加到报告中？</string>

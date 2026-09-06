@@ -48,7 +48,6 @@
   <string name="action_kill_process">Matikan proses (%d)</string>
   <string name="title_confirm_kill_process">Yakin mematikan sesi ini?</string>
   <string name="action_toggle_keep_screen_on">Biarkan layarnya menyala</string>
-  <string name="action_open_help">Bantuan</string>
   <string name="action_report_issue">Laporkan masalah</string>
   <string name="msg_generating_report">Menghasilkan Laporan</string>
   <string name="msg_add_termux_debug_info">Tambahkan info debug termux untuk dilaporkan?</string>
