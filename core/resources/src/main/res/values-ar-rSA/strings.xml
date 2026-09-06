@@ -14,7 +14,6 @@
   <string name="msg_empty_view">لا يوجد بيانات</string>
   <string name="title_terminal">التيرمنال</string>
   <string name="reset">إعادة تعيين</string>
-  <string name="app_logs">سجلات التطبيق</string>
   <string name="ide_logs">سجلات IDE</string>
   <!-- LSP, Diagnostics & Completions -->
   <string name="get_started">البدء</string>
@@ -276,8 +275,6 @@
   <string name="idepref_deleteEmptyLines_summary">ما إذا كان على المحرر حذف الأسطر الفارغة عند المسح للخلف بضغطة واحدة أم لا.</string>
   <string name="idepref_deleteTabs_title">حذف التاب عند المسح</string>
   <string name="idepref_deleteTabs_summary">عند تفعيلها، المحرر سيحذف الفراغات المساوية لعرض التاب (غالبا 4 فراغ) عند الضغط على مسح النص.</string>
-  <string name="permlab_bind_logger_service">ربط بخدمة التسجيل</string>
-  <string name="permdesc_bind_logger_service">السماح لهذا التطبيق بربطه مع خدمة تسجيل اللوغ لـ AndroidIDE. هذا الامر مطلوب لـ AndroidIDE لقراءة السجلات (اللوغ) لهذا التطبيق.</string>
   <string name="wizard_module_name">اسم الإضافة</string>
   <string name="wizard_module_type">نوع الإضافة</string>
   <string name="msg_invalid_module_name">أسم إضافة غير صالح</string>
@@ -293,13 +290,9 @@
   <string name="idepref_devOptions_dumpLogs_title">تفريغ السجلات</string>
   <string name="idepref_devOptions_dumpLogs_summary">تفريغ سجلات AndroidIDE إلى $HOME/.androidide/logs</string>
   <string name="msg_emptyview_applogs">قم بتشغيل النسخة التصحيحية (debug) من تطبيقك لعرض السجلات هنا.</string>
-  <string name="msg_logsender_disabled">تم تعطيل إرسال السجل. يمكنك تمكينه في الخيارات.</string>
   <string name="msg_emptyview_idelogs">تظهر سجلات من بيئة التطوير المتكاملة هنا.</string>
   <string name="msg_emptyview_diagnostics">افتح ملف لعرض نتائج التشخيص الخاصة به</string>
   <string name="msg_emptyview_buildoutput">"قم ببناء التطبيق أو تشغيل مهمة لرؤية نتائج بنائه هنا. "</string>
-  <string name="idepref_devOptions_enableLogsender_title">تمكين مرسل السجلات.</string>
-  <string name="idepref_devOptions_enableLogsender_summary">عند التعطيل، لن يتم عرض سجلات التطبيقات في AndroidIDE.</string>
-  <string name="title_disconnect_log_senders">Disconnect log senders</string>
   <string name="title_begin_long_select">Begin long select</string>
   <string name="idepref_editor_stickScroll_title">Sticky scroll</string>
   <string name="idepref_editor_stickyScroll_summary">Show the current scope at the top while scrolling the editor.</string>
@@ -332,10 +325,6 @@
   <string name="title_install_location_error">Install location error</string>
   <string name="title_unsupported_user">Unsupported user</string>
   <string name="title_socials">Socials</string>
-  <string name="title_contributors">Contributors</string>
-  <string name="summary_contributors">Top community contributors.</string>
-  <string name="title_github_contributors">GitHub Contributors</string>
-  <string name="title_crowdin_translators">Crowdin Translators</string>
   <string name="title_misc">Misc</string>
   <string name="title_contribute">Contribute</string>
   <string name="summary_contribute">It\'s not just an IDE, it\'s a community. Contribute code, ideas, and passion to AndroidIDE.</string>

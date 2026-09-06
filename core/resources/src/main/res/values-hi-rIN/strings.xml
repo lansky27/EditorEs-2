@@ -14,7 +14,6 @@
   <string name="msg_empty_view">कोई डेटा नहीं</string>
   <string name="title_terminal">टर्मिनल</string>
   <string name="reset">रिसेट</string>
-  <string name="app_logs">एप लॉग्स</string>
   <string name="ide_logs">IDE लॉग्स</string>
   <!-- LSP, Diagnostics & Completions -->
   <string name="get_started">प्रारंभ करें</string>
@@ -276,8 +275,6 @@
   <string name="idepref_deleteEmptyLines_summary">क्या एडिटर को एकल बैकस्पेस कुंजी ईवेंट पर खाली पंक्तियाँ हटानी चाहिए।</string>
   <string name="idepref_deleteTabs_title">बैकस्पेस पर टैब हटाएं</string>
   <string name="idepref_deleteTabs_summary">सक्षम होने पर, एडिटर बैकस्पेस कुंजी दबाने पर टैब की चौड़ाई के बराबर रिक्त स्थान हटा देगा।</string>
-  <string name="permlab_bind_logger_service">लॉग सेवा से आबद्ध करें</string>
-  <string name="permdesc_bind_logger_service">इस एप्लिकेशन को AndroidIDE की लॉगिंग सेवा से जुड़ने की अनुमति देता है। इस एप्लिकेशन के लॉग पढ़ने के लिए AndroidIDE के लिए यह अनुमति आवश्यक है।</string>
   <string name="wizard_module_name">मॉड्यूल का नाम</string>
   <string name="wizard_module_type">मॉड्यूल प्रकार</string>
   <string name="msg_invalid_module_name">ग्रैडल मॉड्यूल का नाम अमान्य है</string>
@@ -293,13 +290,9 @@
   <string name="idepref_devOptions_dumpLogs_title">लॉग डंप करें</string>
   <string name="idepref_devOptions_dumpLogs_summary">AndroidIDE लॉग को $HOME/.androidide/logs डायरेक्टरी में डंप करें</string>
   <string name="msg_emptyview_applogs">अपने एप्लिकेशन के लॉग यहां देखने के लिए उसका डिबग संस्करण चलाएँ।</string>
-  <string name="msg_logsender_disabled">लॉगसेंडर अक्षम है. आप इसे प्रेफरेन्सेस में सक्षम कर सकते हैं.</string>
   <string name="msg_emptyview_idelogs">आईडीई के लॉग यहां दिखाए जाते हैं।</string>
   <string name="msg_emptyview_diagnostics">इसके निदान परिणाम दिखाने के लिए एक फ़ाइल खोलें</string>
   <string name="msg_emptyview_buildoutput">"यहां बिल्ड आउटपुट देखने के लिए एप्लिकेशन बनाएं या कोई कार्य चलाएं।"</string>
-  <string name="idepref_devOptions_enableLogsender_title">LogSender सक्षम करें</string>
-  <string name="idepref_devOptions_enableLogsender_summary">अक्षम होने पर, एप्लिकेशन के लॉग AndroidIDE में नहीं दिखाए जाएंगे</string>
-  <string name="title_disconnect_log_senders">LogSender को डिस्कनेक्ट करें</string>
   <string name="title_begin_long_select">लंबा चयन प्रारंभ करें</string>
   <string name="idepref_editor_stickScroll_title">स्टिकी स्क्रॉल</string>
   <string name="idepref_editor_stickyScroll_summary">एडिटर को स्क्रॉल करते समय शीर्ष पर वर्तमान स्कोप दिखाएं।</string>
@@ -332,10 +325,6 @@
   <string name="title_install_location_error">इनस्टॉल करने में विफल</string>
   <string name="title_unsupported_user">असमर्थित उपयोगकर्ता</string>
   <string name="title_socials">सामाजिक संपर्क</string>
-  <string name="title_contributors">योगदानकर्ता</string>
-  <string name="summary_contributors">शीर्ष समुदाय योगदानकर्ता.</string>
-  <string name="title_github_contributors">GitHub योगदानकर्ता</string>
-  <string name="title_crowdin_translators">Crowdin अनुवादक</string>
   <string name="title_misc">विविध लिंक</string>
   <string name="title_contribute">योगदान दें</string>
   <string name="summary_contribute">यह सिर्फ एक IDE नहीं है, यह एक समुदाय है। AndroidIDE में कोड, विचार और जुनून का योगदान करें।</string>

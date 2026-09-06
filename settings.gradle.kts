@@ -128,7 +128,6 @@ include(
   ":event:eventbus-android",
   ":event:eventbus-events",
   ":logging:logger",
-  ":logging:logsender",
   ":termux:application",
   ":termux:emulator",
   ":termux:shared",

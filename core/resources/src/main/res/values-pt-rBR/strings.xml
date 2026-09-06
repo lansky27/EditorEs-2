@@ -14,7 +14,6 @@
   <string name="msg_empty_view">Sem dados</string>
   <string name="title_terminal">Terminal</string>
   <string name="reset">Redefinir</string>
-  <string name="app_logs">Logs do aplicativo</string>
   <string name="ide_logs">Logs da IDE</string>
   <!-- LSP, Diagnostics & Completions -->
   <string name="get_started">Vamos começar</string>
@@ -276,8 +275,6 @@
   <string name="idepref_deleteEmptyLines_summary">Se ativado, o editor irá apagar linhas vazias em um único evento da tecla backspace.</string>
   <string name="idepref_deleteTabs_title">Apagar tabulação com Backspace</string>
   <string name="idepref_deleteTabs_summary">Quando ativado, o editor excluirá espaços iguais à largura da tabulação quando a tecla backspace for pressionada.</string>
-  <string name="permlab_bind_logger_service">vincular ao serviço de log</string>
-  <string name="permdesc_bind_logger_service">Permite que este aplicativo vincule ao serviço de log do AndroidIDE. Esta permissão é necessária para o AndroidIDE ler os logs deste aplicativo.</string>
   <string name="wizard_module_name">Nome do módulo</string>
   <string name="wizard_module_type">Tipo de módulo</string>
   <string name="msg_invalid_module_name">Nome do módulo Gradle inválido</string>
@@ -293,13 +290,9 @@
   <string name="idepref_devOptions_dumpLogs_title">Despejar registros</string>
   <string name="idepref_devOptions_dumpLogs_summary">Despejar registros do AndroidIDE para $HOME/.androidide/logs</string>
   <string name="msg_emptyview_applogs">Execute a variante de depuração do seu aplicativo para ver os logs aqui.</string>
-  <string name="msg_logsender_disabled">LogSender está desativado. Você pode ativá-lo nas configurações.</string>
   <string name="msg_emptyview_idelogs">Os logs da IDE são exibidos aqui.</string>
   <string name="msg_emptyview_diagnostics">Abra um arquivo para exibir os resultados do diagnóstico</string>
   <string name="msg_emptyview_buildoutput">"Construa o aplicativo ou execute uma tarefa para ver sua saída de compilação aqui. "</string>
-  <string name="idepref_devOptions_enableLogsender_title">Ativar LogSender</string>
-  <string name="idepref_devOptions_enableLogsender_summary">Quando desativado, os logs do aplicativo não serão exibidos no AndroidIDE</string>
-  <string name="title_disconnect_log_senders">Desconectar remetentes de log</string>
   <string name="title_begin_long_select">Iniciar seleção longa</string>
   <string name="idepref_editor_stickScroll_title">Rolagem fixa</string>
   <string name="idepref_editor_stickyScroll_summary">Mostrar o escopo atual no topo enquanto estiver rolando o editor.</string>
@@ -332,10 +325,6 @@
   <string name="title_install_location_error">Erro no local de instalação</string>
   <string name="title_unsupported_user">Usuário não suportado</string>
   <string name="title_socials">Sociais</string>
-  <string name="title_contributors">Contribuidores</string>
-  <string name="summary_contributors">Maiores contribuidores da comunidade.</string>
-  <string name="title_github_contributors">Contribuidores do Github</string>
-  <string name="title_crowdin_translators">Tradutores do Crowdin</string>
   <string name="title_misc">Outros</string>
   <string name="title_contribute">Contribuir</string>
   <string name="summary_contribute">Não é apenas um IDE, é uma comunidade. Contribua com código, ideias e paixão pelo AndroidIDE.</string>

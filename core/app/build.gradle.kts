@@ -108,8 +108,6 @@ dependencies {
   implementation(libs.common.lsp4j)
   implementation(libs.common.utilcode)
   implementation(libs.common.kotlin.coroutines.android)
-  implementation(libs.common.retrofit)
-  implementation(libs.common.retrofit.gson)
   implementation(libs.common.hiddenApiBypass)
 
   implementation(libs.google.auto.service.annotations)
@@ -159,7 +157,6 @@ dependencies {
   implementation(projects.event.eventbus)
   implementation(projects.event.eventbusAndroid)
   implementation(projects.event.eventbusEvents)
-  implementation(projects.logging.logsender)
   implementation(projects.termux.application)
   implementation(projects.termux.view)
   implementation(projects.termux.emulator)

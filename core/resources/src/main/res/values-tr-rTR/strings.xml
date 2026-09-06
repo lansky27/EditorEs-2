@@ -14,7 +14,6 @@
   <string name="msg_empty_view">Veri bulunamadı</string>
   <string name="title_terminal">Uçbirim</string>
   <string name="reset">Sıfırla</string>
-  <string name="app_logs">Uygulama günlükleri</string>
   <string name="ide_logs">IDE günlükleri</string>
   <!-- LSP, Diagnostics & Completions -->
   <string name="get_started">Başla</string>
@@ -276,8 +275,6 @@
   <string name="idepref_deleteEmptyLines_summary">Düzenleyicinin tek silme tuşu eylemiyle boş satırları silip silmeyeceğini seçin.</string>
   <string name="idepref_deleteTabs_title">Silme tuşuyla tab sil</string>
   <string name="idepref_deleteTabs_summary">Etkinleştirildiğinde düzenleyici silme tuşuna basıldığında tab boşluğu sayısına eşit oranda boşluğu silecek.</string>
-  <string name="permlab_bind_logger_service">günlük servisine bağlan</string>
-  <string name="permdesc_bind_logger_service">Bu uygulamanın AndroidIDE içindeki günlük servisine bağlanmasını sağlar. Bu izin AndroidIDE\'nin bu uygulama için günlükleri okuyabilmesi için gereklidir.</string>
   <string name="wizard_module_name">Modül adı</string>
   <string name="wizard_module_type">Modül türü</string>
   <string name="msg_invalid_module_name">Geçersiz Gradle modülü adı</string>
@@ -293,13 +290,9 @@
   <string name="idepref_devOptions_dumpLogs_title">Günlükleri kaydet</string>
   <string name="idepref_devOptions_dumpLogs_summary">$HOME/.androidide/logs içine AndroidIDE günlüklerini kaydet</string>
   <string name="msg_emptyview_applogs">Uygulamanızın günlüklerini burada görüntülemek için debug varyantını çalıştırın.</string>
-  <string name="msg_logsender_disabled">LogSender devre dışı. Ayarlardan etkinleştirebilirsiniz.</string>
   <string name="msg_emptyview_idelogs">IDE\'den günlükler burada görünür.</string>
   <string name="msg_emptyview_diagnostics">Bir dosyanın analiz raporlarını görmek için dosyayı açın</string>
   <string name="msg_emptyview_buildoutput">"İnşa çıktısını burada görmek için uygulamayı inşa edin ya da bir görev çalıştırın. "</string>
-  <string name="idepref_devOptions_enableLogsender_title">LogSender\'ı Etkinleştir</string>
-  <string name="idepref_devOptions_enableLogsender_summary">Devre dışı bırakıldığında, uygulamalardan gelen loglar AndroidIDE de görüntülenmeyecek</string>
-  <string name="title_disconnect_log_senders">Günlük göndericilerinin bağlantısını kes</string>
   <string name="title_begin_long_select">Uzun seçime başla</string>
   <string name="idepref_editor_stickScroll_title">Yapışkan kaydırma</string>
   <string name="idepref_editor_stickyScroll_summary">Düzenleyiciyi kaydırırken geçerli kapsamı en üstte gösterin.</string>
@@ -332,10 +325,6 @@
   <string name="title_install_location_error">Yükleme konumu hatası</string>
   <string name="title_unsupported_user">Desteklenmeyen kullanıcı</string>
   <string name="title_socials">Sosyal Medya</string>
-  <string name="title_contributors">Katkı sağlayanlar</string>
-  <string name="summary_contributors">En çok katkıda bulunan topluluk üyeleri.</string>
-  <string name="title_github_contributors">GitHub\'dan Katkıda Bulunanlar</string>
-  <string name="title_crowdin_translators">Crowdin Çevirmenleri</string>
   <string name="title_misc">Diğerleri</string>
   <string name="title_contribute">Katkıda bulun</string>
   <string name="summary_contribute">Bu sadece bir IDE değil, aynı zamanda bir topluluktur. Android IDE\'ye kod, fikirler ve tutku ile katkıda bulunun.</string>

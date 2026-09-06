@@ -14,7 +14,6 @@
   <string name="msg_empty_view">Нет данных</string>
   <string name="title_terminal">Терминал</string>
   <string name="reset">Сброс</string>
-  <string name="app_logs">Логи приложения</string>
   <string name="ide_logs">Логи IDE</string>
   <!-- LSP, Diagnostics & Completions -->
   <string name="get_started">Давайте начнём!</string>
@@ -277,8 +276,6 @@
   <string name="idepref_deleteEmptyLines_summary">Должен ли редактор удалять пустые строки при одиночном нажатии клавиши \"backspace\".</string>
   <string name="idepref_deleteTabs_title">Удалять табуляцию при нажатии клавиши \"backspace\"</string>
   <string name="idepref_deleteTabs_summary">Когда включено, редактор удалит пробелы, равные ширине табуляции при нажатии клавиши \"backspace\".</string>
-  <string name="permlab_bind_logger_service">привязать к службе логирования</string>
-  <string name="permdesc_bind_logger_service">Позволяет этому приложению подключиться к службе логирования AndroidIDE. Это разрешение требуется AndroidIDE, чтобы читать логи этого приложения.</string>
   <string name="wizard_module_name">Имя модуля</string>
   <string name="wizard_module_type">Тип модуля</string>
   <string name="msg_invalid_module_name">Неверное имя модуля Gradle</string>
@@ -294,13 +291,9 @@
   <string name="idepref_devOptions_dumpLogs_title">Дамп логов</string>
   <string name="idepref_devOptions_dumpLogs_summary">Дамп логов AndroidIDE в $HOME/.androidide/logs</string>
   <string name="msg_emptyview_applogs">Запустите отладочный вариант вашего приложения, чтобы увидеть его логи здесь.</string>
-  <string name="msg_logsender_disabled">LogSender отключен. Вы можете включить его в настройках.</string>
   <string name="msg_emptyview_idelogs">Логи IDE отображаются здесь.</string>
   <string name="msg_emptyview_diagnostics">Откройте файл, чтобы показать результаты его диагностики</string>
   <string name="msg_emptyview_buildoutput">"Соберите приложение или запустите задачу, чтобы увидеть результаты сборки здесь. "</string>
-  <string name="idepref_devOptions_enableLogsender_title">Включить LogSender</string>
-  <string name="idepref_devOptions_enableLogsender_summary">Если отключено, журналы из приложений не будут отображаться в AndroidIDE</string>
-  <string name="title_disconnect_log_senders">Отключить модуль отправки логов</string>
   <string name="title_begin_long_select">Начать длинное выделение</string>
   <string name="idepref_editor_stickScroll_title">Липкая прокрутка</string>
   <string name="idepref_editor_stickyScroll_summary">Показывать текущую область видимости вверху при прокрутке редактора.</string>
@@ -333,10 +326,6 @@
   <string name="title_install_location_error">Недопустимая локация для установки</string>
   <string name="title_unsupported_user">Недопустимый пользователь</string>
   <string name="title_socials">Свяжитесь с нами</string>
-  <string name="title_contributors">Разработчики</string>
-  <string name="summary_contributors">Лучшие разработчики из сообщества.</string>
-  <string name="title_github_contributors">Разработчики на GitHub</string>
-  <string name="title_crowdin_translators">Переводчики на Crowdin</string>
   <string name="title_misc">Прочее</string>
   <string name="title_contribute">Внести свой вклад</string>
   <string name="summary_contribute">AndroidIDE - это не только инструмент, но и сообщество вокруг него. Внесите свой вклад, предложив идею, код, или оставаясь преданным нашему проекту.</string>

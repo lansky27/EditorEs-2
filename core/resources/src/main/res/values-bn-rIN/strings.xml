@@ -14,7 +14,6 @@
   <string name="msg_empty_view">কোনো তথ্য নেই</string>
   <string name="title_terminal">টার্মিনাল</string>
   <string name="reset">রিসেট করুন</string>
-  <string name="app_logs">App লগ</string>
   <string name="ide_logs">IDE লগ</string>
   <!-- LSP, Diagnostics & Completions -->
   <string name="get_started">শুরু করুন</string>
@@ -277,8 +276,6 @@
   <string name="idepref_deleteEmptyLines_summary">সম্পাদকের একটি ব্যাকস্পেস কী ইভেন্টে খালি লাইন মুছে ফেলা উচিত কিনা।</string>
   <string name="idepref_deleteTabs_title">ব্যাকস্পেসে ট্যাব মুছুন</string>
   <string name="idepref_deleteTabs_summary">সক্রিয় থাকা অবস্থায়, ব্যাকস্পেস কী চাপলে সম্পাদক ট্যাবের প্রস্থের সমান স্পেস মুছে ফেলবে।</string>
-  <string name="permlab_bind_logger_service">লগ সার্ভিসে আবদ্ধ করুন</string>
-  <string name="permdesc_bind_logger_service">এই অ্যাপ্লিকেশানটিকে AndroidIDE-এর লগিং পরিষেবার সাথে আবদ্ধ হওয়ার অনুমতি দেয়৷ এই অ্যাপ্লিকেশনটির লগ পড়ার জন্য AndroidIDE-এর এই অনুমতি প্রয়োজন৷</string>
   <string name="wizard_module_name">মডিউলের নাম</string>
   <string name="wizard_module_type">মডিউল এর প্রকার</string>
   <string name="msg_invalid_module_name">অবৈধ Gradle মডিউল নাম</string>
@@ -294,13 +291,9 @@
   <string name="idepref_devOptions_dumpLogs_title">ডাম্প লগ</string>
   <string name="idepref_devOptions_dumpLogs_summary">AndroidIDE লগ ডাম্প করুন $HOME/.androidide/logs এ</string>
   <string name="msg_emptyview_applogs">এখানে লগগুলি দেখার জন্য আপনার অ্যাপ্লিকেশনটির ডিবাগ ভ্যারিয়েন্ট টি রান করুন৷</string>
-  <string name="msg_logsender_disabled">LogSender নিষ্ক্রিয় করা হয়েছে। আপনি Preferences-এ গিয়ে এটিকে সক্রিয় করতে পারেন।</string>
   <string name="msg_emptyview_idelogs">IDE লগস্ এখানে দেখানো হয়.</string>
   <string name="msg_emptyview_diagnostics">কোনো ফাইল এর ডায়গনিস্টিক ফলাফল দেখার জন্য, সেটিকে খুলুন</string>
   <string name="msg_emptyview_buildoutput">"এখানে বিল্ড আউটপুট দেখতে অ্যাপ্লিকেশনটি তৈরি করুন বা একটি টাস্ক চালান। "</string>
-  <string name="idepref_devOptions_enableLogsender_title">LogSender সক্রিয় করুন</string>
-  <string name="idepref_devOptions_enableLogsender_summary">নিষ্ক্রিয় করা হলে, অ্যাপ্লিকেশান থেকে লগগুলি AndroidIDE-এ দেখানো হবে না৷</string>
-  <string name="title_disconnect_log_senders">লগ প্রেরকদের সংযোগ বিচ্ছিন্ন করুন</string>
   <string name="title_begin_long_select">দীর্ঘ নির্বাচন শুরু করুন</string>
   <string name="idepref_editor_stickScroll_title">স্টিকি স্ক্রল</string>
   <string name="idepref_editor_stickyScroll_summary">সম্পাদক স্ক্রোল করার সময় শীর্ষে বর্তমান scope টি দেখান।</string>
@@ -333,10 +326,6 @@
   <string name="title_install_location_error">ইনস্টল করার অবস্থানে ত্রুটি</string>
   <string name="title_unsupported_user">অসমর্থিত ব্যবহার</string>
   <string name="title_socials">সামাজিক মাধ্যম গুলি</string>
-  <string name="title_contributors">অবদানকারীরা</string>
-  <string name="summary_contributors">শীর্ষে থাকা কমিউনিটি অবদানকারীরা।</string>
-  <string name="title_github_contributors">GitHub অবদানকারীরা</string>
-  <string name="title_crowdin_translators">ক্রাউডিন অনুবাদকেরা</string>
   <string name="title_misc">বিবিধ</string>
   <string name="title_contribute">অবদান করুন</string>
   <string name="summary_contribute">এটি শুধুমাত্র একটি IDE নয়, এটি একটি কমিউনিটি। AndroidIDE-এ কোড, ধারনা এবং আবেগ অবদান করুন।</string>

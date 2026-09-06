@@ -14,7 +14,6 @@
   <string name="msg_empty_view">没有数据</string>
   <string name="title_terminal">终端</string>
   <string name="reset">重置</string>
-  <string name="app_logs">应用日志</string>
   <string name="ide_logs">IDE 日志</string>
   <!-- LSP, Diagnostics & Completions -->
   <string name="get_started">开始使用</string>
@@ -276,8 +275,6 @@
   <string name="idepref_deleteEmptyLines_summary">编辑器是否应在单个退格键事件中删除空行。</string>
   <string name="idepref_deleteTabs_title">退格键删除制表符</string>
   <string name="idepref_deleteTabs_summary">启用后，编辑器将在按下退格键时删除等于制表符宽度的空格。</string>
-  <string name="permlab_bind_logger_service">绑定日志服务</string>
-  <string name="permdesc_bind_logger_service">允许该应用绑定到 AndroidIDE 的日志记录服务。 AndroidIDE 需要此权限才能读取该应用的日志。</string>
   <string name="wizard_module_name">模块名称</string>
   <string name="wizard_module_type">模块类型</string>
   <string name="msg_invalid_module_name">无效的 Gradle 模块名称</string>
@@ -293,13 +290,9 @@
   <string name="idepref_devOptions_dumpLogs_title">转储日志</string>
   <string name="idepref_devOptions_dumpLogs_summary">将 AndroidIDE 日志转储到 $HOME/.androidide/logs</string>
   <string name="msg_emptyview_applogs">运行应用的 debug 变体以在此处查看其日志。</string>
-  <string name="msg_logsender_disabled">LogSender 已禁用。您可以在首选项中启用它。</string>
   <string name="msg_emptyview_idelogs">IDE 中的日志显示在这里。</string>
   <string name="msg_emptyview_diagnostics">打开文件以显示其诊断结果</string>
   <string name="msg_emptyview_buildoutput">"构建应用或运行任务以在此处查看其构建输出。"</string>
-  <string name="idepref_devOptions_enableLogsender_title">启用 LogSender</string>
-  <string name="idepref_devOptions_enableLogsender_summary">禁用后，应用的日志将不会显示在 AndroidIDE 中</string>
-  <string name="title_disconnect_log_senders">断开日志发送器</string>
   <string name="title_begin_long_select">开始长选</string>
   <string name="idepref_editor_stickScroll_title">粘滞滚动</string>
   <string name="idepref_editor_stickyScroll_summary">滚动编辑器时在顶部显示当前范围。</string>
@@ -332,10 +325,6 @@
   <string name="title_install_location_error">安装位置错误</string>
   <string name="title_unsupported_user">不支持的用户</string>
   <string name="title_socials">社交</string>
-  <string name="title_contributors">贡献者</string>
-  <string name="summary_contributors">顶级社区贡献者。</string>
-  <string name="title_github_contributors">GitHub 贡献者</string>
-  <string name="title_crowdin_translators">Crowdin 翻译员</string>
   <string name="title_misc">杂项</string>
   <string name="title_contribute">贡献</string>
   <string name="summary_contribute">它不仅仅是一个 IDE，更是一个社区。为 AndroidIDE 贡献代码、想法和热情。</string>
