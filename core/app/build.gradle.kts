@@ -21,7 +21,6 @@ import com.itsaky.androidide.build.config.BuildConfig
 import com.itsaky.androidide.desugaring.utils.JavaIOReplacements.applyJavaIOReplacements
 
 plugins {
-  id("com.itsaky.androidide.core-app")
   id("com.android.application")
   id("kotlin-android")
   id("kotlin-kapt")
